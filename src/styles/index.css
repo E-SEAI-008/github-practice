@@ -23,7 +23,12 @@ header {
   grid-area: header;
 }
 /* Header end */
-
+aside {
+  background-color: #88d8b0;
+  padding: 1rem;
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
+  grid-area: sidebar;
+}
 /* Main start */
 /* About */
 
