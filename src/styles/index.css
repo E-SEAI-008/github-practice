@@ -9,6 +9,22 @@
 /* Header end */
 
 /* Main start */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  gap: 2rem;
+  /* min-height: 100rem; */
+  grid-area: main;
+}
+
+main > section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 /* About */
 
 /* why */
