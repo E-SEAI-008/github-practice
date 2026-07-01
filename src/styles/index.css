@@ -3,9 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'sidebar main main'
+    'footer footer footer';
+}
 /* Header start */
-
+header {
+  background-color: #ffcc5c;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.1);
+  grid-area: header;
+}
 /* Header end */
 aside {
   background-color: #88d8b0;
